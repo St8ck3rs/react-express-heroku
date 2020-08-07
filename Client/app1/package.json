@@ -10,6 +10,15 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/stomita/heroku-buildpack-nodejs"
+    }
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
